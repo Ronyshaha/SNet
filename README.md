@@ -36,3 +36,21 @@ The repository will include, after publishing the paper:
 - Sample results
 - Dataset access instructions
 
+- ## Repository Structure
+
+```text
+YOLO-SNet/
+│── README.md
+│── LICENSE
+│── requirements.txt
+│── train.py
+│── test.py
+│── infer.py
+├── configs/
+├── models/
+├── datasets/
+│   └── README.md
+├── scripts/
+├── results/
+└── notebooks/
+
