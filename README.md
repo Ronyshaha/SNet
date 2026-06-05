@@ -144,7 +144,7 @@ The following curves compare mAP@50, mAP@50-95, precision, and recall across 300
 
 ## Model Efficiency Analysis
 
-YOLO-SNet is designed to provide a strong trade-off between detection accuracy and computational efficiency. The following figure compares latency, accuracy, throughput, and efficiency gain between YOLO-SNet and YOLOv11 variants.
+YOLO-SNet is designed to provide a strong trade-off between detection accuracy and computational efficiency. The following figure compares Inference Time, Parameter, latency, accuracy, throughput, and efficiency gain between YOLO-SNet and YOLOv11 and other variants.
 
 <p align="center">
   <img src="images/Figure-11.png" width="950">
