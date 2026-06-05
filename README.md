@@ -188,7 +188,7 @@ If this work is useful for your research, please cite our paper:
 @article{shaha2025yolosnet,
   title   = {YOLO-SNet: Detection of Distant Smaller Entities from Aerial Surveillance Images Consisting Heterogeneous Objects},
   author  = {Shaha, Rony and Sarker, Kaushik and Hasan, Md Mahibul and Jobaer, Sayed and Ahmed, Foysal and Habib Tushar, MD Ahasan and Ghosh, Sumonta},
-  journal = {Image and Vision Computing},
+  journal = {  },
   year    = {2025}
 }
 ```
