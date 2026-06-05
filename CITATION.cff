@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "YOLO-SNet: Detection of Distant Smaller Entities from Aerial Surveillance Images Consisting Heterogeneous Objects"
+message: "If you use this code or dataset, please cite our paper."
+type: article
+authors:
+
+* family-names: Shaha
+  given-names: Rony
+* family-names: Sarker
+  given-names: Kaushik
+* family-names: Hasan
+  given-names: Md Mahibul
+* family-names: Jobaer
+  given-names: Sayed
+* family-names: Ahmed
+  given-names: Foysal
+* family-names: Habib Tushar
+  given-names: MD Ahasan
+* family-names: Ghosh
+  given-names: Sumonta
+  journal: "---------"
+  year: 2025
+  repository-code: "https://github.com/Ronyshaha/SNet"
+  url: "https://github.com/Ronyshaha/SNet"
+  license: MIT
