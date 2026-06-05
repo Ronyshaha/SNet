@@ -105,19 +105,6 @@ YOLO-SNet consists of three major components:
 
 ---
 
-## Ablation Study
-
-The ablation study evaluates the contribution of the major components used in YOLO-SNet, including GhostConv, C3k2_gConv, and C3k2_GDC.
-
-| Version      | GhostConv | C3k2_gConv | C3k2_GDC | Mean mAP | Params (M) |
-| ------------ | --------- | ---------- | -------- | -------: | ---------: |
-| V1           | ✓         | ✓          | -        |     50.7 |       8.04 |
-| V2           | ✓         | -          | ✓        |     48.2 |       8.00 |
-| V3           | -         | ✓          | ✓        |     48.5 |       7.09 |
-| V4 YOLO-SNet | ✓         | ✓          | ✓        |     53.5 |       7.00 |
-
----
-
 ## Qualitative Results
 
 The following visual comparison demonstrates YOLO-SNet and YOLOv11s under different lighting conditions, including morning, noon, evening, and night scenes. YOLO-SNet shows stronger detection capability for small and flat objects in complex UAV-assisted aerial scenes.
