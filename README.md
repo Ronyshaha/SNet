@@ -87,30 +87,6 @@ YOLO-SNet consists of three major components:
 
 ---
 
-## Proposed Modules
-
-### Ghost Backbone
-
-The Ghost Backbone uses GhostConv-based operations to generate efficient feature maps with reduced computational cost. This helps YOLO-SNet maintain strong detection performance while reducing parameter count and model size.
-
-### C3k2_gConv Module
-
-The C3k2_gConv module improves feature extraction efficiency by replacing conventional convolution operations with GhostConv-based lightweight operations.
-
-### C3k2_GDC Module
-
-The proposed C3k2_GDC module combines GhostConv with dynamic convolution. It dynamically aggregates multiple Ghost convolution kernels using attention weights, allowing the model to adapt to different aerial scenes and object scales.
-
-<p align="center">
-  <img src="images/Figure-3.png" width="850">
-</p>
-
-### WIoUv3 Loss
-
-WIoUv3 is adopted for bounding-box regression to improve localization performance, especially for small and flat objects in complex UAV-assisted aerial images.
-
----
-
 ## Main Results
 
 ### Benchmark Results on SOD-Dataset
