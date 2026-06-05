@@ -575,9 +575,3 @@ Repository:
 ```text
 https://github.com/Ronyshaha/SNet
 ```
-
-Forked from:
-
-```text
-https://github.com/dhuvisionlab/YOLO-SNet
-```
