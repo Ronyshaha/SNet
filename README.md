@@ -443,7 +443,7 @@ python tools/profile_model.py \
 
 | Model     | Dataset      | Weight                            |
 | --------- | ------------ | --------------------------------- |
-| YOLO-SNet | SOD-Dataset  | `weights/best.pt`                 |
+| YOLO-SNet | SOD-Dataset  | Available upon request or release  |
 | YOLO-SNet | VisDrone2019 | Available upon request or release |
 
 If pretrained weights are larger than the GitHub upload limit, they can be provided through GitHub Releases, Google Drive, or another external storage link.
@@ -549,13 +549,14 @@ If this work is useful for your research, please cite our paper:
 
 ## Acknowledgements
 
-We thank the researchers and contributors working on UAV-assisted aerial image analysis, small object detection, and lightweight YOLO-based object detection methods.
+We sincerely acknowledge **Dhuvision Lab** for sharing the dataset and supporting the development of this research work.
+
+We would also like to thank all authors and contributors of this paper for their valuable contributions, discussions, and support throughout the development of YOLO-SNet.
 
 This repository is forked from:
 
 ```text
 https://github.com/dhuvisionlab/YOLO-SNet
-```
 
 ---
 
