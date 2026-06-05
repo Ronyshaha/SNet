@@ -82,7 +82,7 @@ The C3k2_gConv module improves feature extraction efficiency by replacing conven
 The proposed C3k2_GDC module combines GhostConv with dynamic convolution. It dynamically aggregates multiple Ghost convolution kernels using attention weights, allowing the model to adapt to different aerial scenes and object scales.
 
 <p align="center">
-  <img src="images/Figure-3_ghost_dynamic_conv.png" width="850">
+  <img src="images/Figure-3.png" width="850">
 </p>
 
 ### WIoUv3 Loss
@@ -127,7 +127,7 @@ The ablation study evaluates the contribution of the major components used in YO
 The following visual comparison demonstrates YOLO-SNet and YOLOv11s under different lighting conditions, including morning, noon, evening, and night scenes. YOLO-SNet shows stronger detection capability for small and flat objects in complex UAV-assisted aerial scenes.
 
 <p align="center">
-  <img src="images/Figure-8_sod_comparison.png" width="950">
+  <img src="images/Figure-7.png" width="950">
 </p>
 
 ---
@@ -137,7 +137,7 @@ The following visual comparison demonstrates YOLO-SNet and YOLOv11s under differ
 The following curves compare mAP@50, mAP@50-95, precision, and recall across 300 training epochs. YOLO-SNet shows strong convergence and competitive performance compared with other YOLO variants.
 
 <p align="center">
-  <img src="images/Figure-11_training_curves.png" width="950">
+  <img src="images/Figure-10.png" width="950">
 </p>
 
 ---
@@ -147,7 +147,7 @@ The following curves compare mAP@50, mAP@50-95, precision, and recall across 300
 YOLO-SNet is designed to provide a strong trade-off between detection accuracy and computational efficiency. The following figure compares latency, accuracy, throughput, and efficiency gain between YOLO-SNet and YOLOv11 variants.
 
 <p align="center">
-  <img src="images/Figure-7_efficiency.png" width="950">
+  <img src="images/Figure-11.png" width="950">
 </p>
 
 ### Latency vs Parameters
@@ -155,7 +155,7 @@ YOLO-SNet is designed to provide a strong trade-off between detection accuracy a
 The following figure shows the speed-size trade-off, where YOLO-SNet achieves low inference time and reduced parameter count.
 
 <p align="center">
-  <img src="images/Figure-12_latency_params.png" width="850">
+  <img src="images/Figure-12.png" width="850">
 </p>
 
 ---
